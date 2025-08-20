@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-brandbg text-gray-900; }
+
+.loader { @apply inline-block h-5 w-5 animate-spin rounded-full border-2 border-amber-300 border-t-orange-600; }
+
+.card { @apply bg-white rounded-2xl shadow-sm border border-amber-200; }
+.btn { @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-primary text-white hover:bg-amber-600 disabled:opacity-60 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-accent/40; }
+.btn-secondary { @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-orange-600 text-white hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-accent/40; }
+.btn-ghost { @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl text-gray-800 hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-accent/30; }
+
+.input { @apply w-full border border-amber-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-accent/40 bg-white; }
+.label { @apply text-sm font-medium text-gray-800; }
+.badge { @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-orange-800; }
+
+/* Mobile bottom nav styles */
+.mobile-nav { @apply fixed bottom-0 inset-x-0 z-20 bg-white/95 border-t border-amber-200 shadow-[0_-2px_10px_rgba(0,0,0,0.03)]; }
+.mobile-nav-inner { @apply flex items-stretch justify-between px-2 py-1; }
+.mobile-nav-item { @apply flex-1 mx-1 my-1; }
+.mobile-nav-btn { @apply w-full h-14 rounded-2xl grid place-items-center text-[13px] font-medium text-gray-700 bg-amber-50 border border-amber-200; }
+.mobile-nav-btn-active { @apply text-orange-700 bg-amber-100 border-orange-300; }
+.mobile-nav-icon { @apply text-xl leading-none; }
