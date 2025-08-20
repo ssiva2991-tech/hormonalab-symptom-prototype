@@ -25,7 +25,6 @@ It simulates symptom logging, predictive insights, and wearable data fetching fo
 
 - **Responsive Design**
   - Mobile-first UI with Tailwind CSS  
-  - Yellow/orange theme matching [hormonalab.com](https://hormonalab.com/)  
   - Mobile-friendly navigation menu  
 
 ---
