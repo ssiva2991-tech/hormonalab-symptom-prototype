@@ -1,5 +1,7 @@
 # Hormonalab Symptom Logging Prototype
 
+🔗 **Live Demo:** [https://hormonalab-symptom-prototype.vercel.app/](https://hormonalab-symptom-prototype.vercel.app/)
+
 This is a prototype demo application built with **Vite + React + Tailwind CSS + React Query + MSW**.  
 It simulates symptom logging, predictive insights, and wearable data fetching for Hormonalab.
 
